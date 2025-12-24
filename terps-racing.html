@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terps Racing Electric Vehicle (TREV)</title>
+    <meta name="description"
+        content="Portfolio of Abisharan Nedun featuring the Terps Racing Electric Vehicle (TREV) project - Rear Wing and Side Pod Design.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="content-wrapper">
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="container">
+                <a href="index.html" class="logo">AN<span class="highlight">.</span></a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Work</a></li>
+                    <li><a href="https://www.linkedin.com/in/anedun/" target="_blank">Linked In</a></li>
+                    <li><button id="theme-toggle" class="theme-btn" aria-label="Toggle Dark Mode">
+                            <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="5"></circle>
+                                <line x1="12" y1="1" x2="12" y2="3"></line>
+                                <line x1="12" y1="21" x2="12" y2="23"></line>
+                                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                <line x1="1" y1="12" x2="3" y2="12"></line>
+                                <line x1="21" y1="12" x2="23" y2="12"></line>
+                                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                            </svg>
+                            <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                            </svg>
+                        </button></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Hero Section (Intro) -->
+        <header class="hero">
+            <div class="container hero-content">
+                <h1 class="hero-title">Terps Racing Electric Vehicle <span class="trev-text">(TREV)</span></h1>
+                <p class="hero-subtitle">As part of the aerodynamics and composites team at Terps Racing Electric
+                    Vehicle I am the lead designer for the rear wing and side pods for our upcoming car: TREV 4. This
+                    page will showcase my design, simulation, manufacturing, and testing process.</p>
+            </div>
+        </header>
+
+        <!-- Section 1: Rear Wing -->
+        <section id="rear-wing" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Rear Wing</h2>
+                    <p class="section-desc">The rear wing contributes downforce at the rear of the car. This allows the
+                        aerodynamic center to be behind the center of gravity which gives far better control. More
+                        importantly the rear wing is what pushes down onto the rear tires when cornering allows for
+                        greater entry and exit speeds which leads way to a faster car.</p>
+                </div>
+
+                <!-- Subsection: Design -->
+                <div class="subsection">
+                    <h3 class="subsection-title">Design</h3>
+                    <p class="text-block">As the lead designer for the rear wing for our next FSAE race car: TREV 4, my
+                        goal was to improve upon the existing design for more downforce and less drag. This section will
+                        showcase the design of the rear wing and its subsidiary components: endplates, major airfoil,
+                        minor airfoils as well as the drag reduction system (DRS) and mounting system.</p>
+
+                    <div class="feature-row">
+                        <div class="feature-media">
+                            <img src="https://cdn.myportfolio.com/69f7de98-9afc-4d6a-b671-848c20801647/49fc3983-b352-4943-b85d-85ae39b13eaf_rw_1920.png?h=ed79e883d975ff8c217c3812739e07de"
+                                alt="Isometric View of Rear Wing" class="rounded-img">
+                            <p class="caption">Isometric View of Rear Wing</p>
+                        </div>
+                        <div class="feature-text">
+                            <p>The isometric view of my latest rear wing shows the different components as well as where
+                                they are placed. This design is nearly finalized with only mounting to be fixed. In
+                                later sections, the benefits of what this rear wing brings compared to previous
+                                iterations as well as the one ran in the previous car.</p>
+                        </div>
+                    </div>
+
+                    <div class="feature-row reverse">
+                        <div class="feature-media">
+                            <img src="https://cdn.myportfolio.com/69f7de98-9afc-4d6a-b671-848c20801647/b627c15b-a21e-4cbf-89ab-06ad4006921c_rw_1920.png?h=7a7f8684684530d98cb7673e2cb8ad6a"
+                                alt="Side View of Rear Wing Endplate" class="rounded-img">
+                            <p class="caption">Side View of Rear Wing Endplate</p>
+                        </div>
+                        <div class="feature-text">
+                            <p>The endplate of a rear wing sections off air passing the airfoils and the outside
+                                airflow. Starting with the left side as the front, the rounded edges are to decrease
+                                drag. The top cutout is a vortex generator designed to pull the slower moving air from
+                                the top side of the airfoils. This single section was one of the biggest improvements of
+                                reducing drag. Finally the right most cutout serves a similar purpose for the air
+                                traveling underneath the airfoils.</p>
+                        </div>
+                    </div>
+
+                    <div class="feature-row">
+                        <div class="feature-media">
+                            <img src="https://cdn.myportfolio.com/69f7de98-9afc-4d6a-b671-848c20801647/9e8d689c-8e9d-452b-a302-d6e6524a2d3e_rw_1920.png?h=3417cd7767de5061c6f2a53423de059d"
+                                alt="Front View of Custom Major Airfoil" class="rounded-img">
+                            <p class="caption">Front View of Custom Major Airfoil</p>
+                        </div>
+                        <div class="feature-text">
+                            <p>The major airfoil for the rear wing is a custom profile designed around the roll hoop and
+                                brace directly in front. A main issue with oncoming airflow to the rear wing is that the
+                                bottom section is often blocked by the driver's helmet. To solve this I designed a 3D
+                                sketch to lift up the front section of the airfoil to peek above the headrest. Doing so
+                                lead to a 8% gain in downforce alone.</p>
+                        </div>
+                    </div>
+
+                    <div class="grid-2-col">
+                        <div class="media-card">
+                            <img src="https://cdn.myportfolio.com/69f7de98-9afc-4d6a-b671-848c20801647/85b74e6b-3b12-4553-919b-ce70ab4709eb_rw_1920.png?h=eb67c0d87f53349103aa6fbd75393693"
+                                alt="Isometric View of Motorsport High Downforce (MSHD) Airfoil" class="feature-img">
+                            <p class="caption">Isometric View of Motorsport High Downforce (MSHD) Airfoil</p>
+                        </div>
+                        <div class="media-card">
+                            <img src="https://cdn.myportfolio.com/69f7de98-9afc-4d6a-b671-848c20801647/4717b9cb-d5e7-44d7-ab0f-dab564586365_rw_3840.png?h=8299ccf4ecbfcc62c0b07e1a08cef305"
+                                alt="Isometric View of NACA 6412 Airfoil" class="feature-img">
+                            <p class="caption">Isometric View of NACA 6412 Airfoil</p>
+                        </div>
+                    </div>
+                    <p class="text-block mt-4">The minor airfoils of the rear wing consist of two MSHD airfoils and one
+                        NACA 6412 airfoil. A majority of the downforce increase compared to the previous year's rear
+                        wing was using the MSHD airfoil as well as increasing the chord length. The MSHD airfoils are
+                        also set at a higher angle of attack which does increase drag, however the downforce benefit is
+                        much higher. The NACA 6412 airfoil is simply to keep the oncoming airflow at the top of the rear
+                        wing as laminar as possible, which as yield quite positive results. The exact downforce gain is
+                        shown in the simulations section.</p>
+
+                    <div class="feature-row reverse">
+                        <div class="feature-media">
+                            <div class="video-container">
+                                <iframe
+                                    src="https://www-ccv.adobe.io/v1/player/ccv/RcRNnBJayzN/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+                                    frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            <p class="caption">Drag Reduction System (DRS) Demonstration</p>
+                        </div>
+                        <div class="feature-text">
+                            <p>This video demonstrates how DRS will work on the rear wing. The main advantage is a 40%
+                                reduced drag coefficient with the rear two minors being at a near zero angle of attack.
+                                The four linkage system connects to the center of pressure of both the MSHD airfoils for
+                                the least amount of resistance for rotation. The DRS will be powered by a stepper motor
+                                which still needs to be finalized by the electrical subteam.</p>
+                        </div>
+                    </div>
+
+                    <div class="feature-row">
+                        <div class="feature-media">
+                            <img src="https://cdn.myportfolio.com/69f7de98-9afc-4d6a-b671-848c20801647/7a28c910-c2ab-4dcd-a146-4c475b958f8f_rw_1200.png?h=58d34f50e909ade0aa27bf53ec93201b"
+                                alt="Isometric View of Swan Neck Truss Mounting" class="rounded-img">
+                            <p class="caption">Isometric View of Swan Neck Truss Mounting</p>
+                        </div>
+                        <div class="feature-text">
+                            <p>The swan neck truss mount is my current design for mounting the rear wing to its optimal
+                                position on the car. The truss needs to be optimized further, however this gives a
+                                fairly good look into what the final mounting system will look like. The swan neck was
+                                chosen as it allows for the most amount of oncoming airflow while being rigid enough to
+                                support the amount of downforce and drag generated. Additionally, there will be two
+                                rod-ends attached from each endplate to the main chassis to prevent torsion.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Subsection: Simulations -->
+                <div class="subsection">
+                    <h3 class="subsection-title">Simulations</h3>
+                    <p class="text-block">The simulations ran in Siemens Star CCM+ allows for me to see how the rear
+                        wing affects the surrounding airflow. Looking through velocity plots, pressure plots, and stream
+                        lines gives additional data to design a more effective rear wing.</p>
+
+                    <div class="feature-row">
+                        <div class="feature-media">
+                            <img src="https://cdn.myportfolio.com/69f7de98-9afc-4d6a-b671-848c20801647/ac3722ca-9468-4a85-9d0b-ebe82c7842d9_rw_1920.png?h=ef5ce04e2d9425f00b9b89e4b2668a83"
+                                alt="Rear Wing Y Axis Velocity Plot" class="rounded-img">
+                            <p class="caption">Rear Wing Y Axis Velocity Plot</p>
+                        </div>
+                        <div class="feature-text">
+                            <p>The rear wing velocity plot along the y axis shows how the airfoils are configured. The
+                                NACA 6412 airfoil is keeping the region on the top of the airfoils at a much faster
+                                velocity than before. Additionally, due to the high camber of the MSHD airfoils we can
+                                se a stark velocity gradient between the upper and lower surfaces that even extends much
+                                higher and longer than the rear wing itself.</p>
+                        </div>
+                    </div>
+
+                    <div class="feature-row reverse">
+                        <div class="feature-media">
+                            <img src="https://cdn.myportfolio.com/69f7de98-9afc-4d6a-b671-848c20801647/308aad1a-938e-4f3d-b5cd-02a71950f318_rw_1200.png?h=db7054e073efae1fb2765b61d849f5fd"
+                                alt="Rear Wing Y Axis Pressure Plot" class="rounded-img">
+                            <p class="caption">Rear Wing Y Axis Pressure Plot</p>
+                        </div>
+                        <div class="feature-text">
+                            <p>The rear wing pressure plot along the y axis shows the tight band of high pressure the
+                                three element airfoils create. The bottom pressure gradient is caused by the body panels
+                                and under tray. The high pressure areas are concentrated to the MHSD airfoils. The spike
+                                at the very top of the last MSHD airfoil is due to the gurney flap.</p>
+                        </div>
+                    </div>
+
+                    <div class="feature-row">
+                        <div class="feature-media">
+                            <img src="https://cdn.myportfolio.com/69f7de98-9afc-4d6a-b671-848c20801647/01e81751-d202-462c-a0ed-d1c2b84fe14b_rw_1920.png?h=8ac967499b8943696d2286369a55002e"
+                                alt="Rear Wing X Axis Velocity Plot" class="rounded-img">
+                            <p class="caption">Rear Wing X Axis Velocity Plot</p>
+                        </div>
+                        <div class="feature-text">
+                            <p>The rear wing velocity plot along the x axis shows the vortices generated by the top of
+                                the endplates. This slice was taken in the middle of the endplate, which is why the rear
+                                two vortices are not shown. The tight grouping of the two vortices helps define the lack
+                                of stagnation on the top surface of the airfoils.</p>
+                        </div>
+                    </div>
+
+                    <div class="feature-row reverse">
+                        <div class="feature-media">
+                            <img src="https://cdn.myportfolio.com/69f7de98-9afc-4d6a-b671-848c20801647/016fae5e-cfc7-48c8-be1a-f153111a0f0e_rw_1200.png?h=23181c97f29ef97afb89af0b89effbea"
+                                alt="Velocity Gradient of Motorsport High Downforce (MSHD) Airfoil" class="rounded-img">
+                            <p class="caption">Velocity Gradient of Motorsport High Downforce (MSHD) Airfoil</p>
+                        </div>
+                        <div class="feature-text">
+                            <p>This is a velocity gradient of the MSHD airfoil which shows the aggressive camber that
+                                this airfoil has. The velocity plot also shows a stagnation point occurring almost at
+                                the top side of the airfoil. What was discovered by this was that there was a set chord
+                                length and angle of attack that the MSHD would be effective at.</p>
+                        </div>
+                    </div>
+
+                    <div class="grid-2-col">
+                        <div class="media-card">
+                            <img src="https://cdn.myportfolio.com/69f7de98-9afc-4d6a-b671-848c20801647/1458b989-21a6-46a3-90f5-bedbab5d445e_rw_1920.png?h=65859848274bdff2cb9fbf1b138ea567"
+                                alt="Isometric View of Rear Wing Stream Lines" class="feature-img">
+                            <p class="caption">Isometric View of Rear Wing Stream Lines</p>
+                        </div>
+                        <div class="media-card">
+                            <img src="https://cdn.myportfolio.com/69f7de98-9afc-4d6a-b671-848c20801647/01ccaf4b-d2b3-4dd2-9fd6-1bae5a41888a_rw_1920.png?h=8b1019f3a45e77624b25b4025a6ba011"
+                                alt="Rear Wing Stream Line Zoomed on Vortex" class="feature-img">
+                            <p class="caption">Rear Wing Stream Line Zoomed on Vortex</p>
+                        </div>
+                    </div>
+                    <p class="text-block mt-4">These two streamlines images from Siemens Star CCM+ shows how all the
+                        previously defined components come together and create a high downforce environment. The second
+                        image in particular shows how fast the vortex is spiraling outwards, which pulls in more air
+                        from the top seen on the first image in blue. The first image also gives a great look into how
+                        the flow gets kicked up due to the high angles of attack that the MSHD airfoils are set in.</p>
+
+                    <div class="feature-row">
+                        <div class="feature-media">
+                            <img src="https://cdn.myportfolio.com/69f7de98-9afc-4d6a-b671-848c20801647/eabb6688-67c7-456d-8fae-0a08c9645171_rw_1200.png?h=48f4ac5bf8407a74dc7b2692640d55d4"
+                                alt="Rear Wing Simulation Results" class="rounded-img">
+                            <p class="caption">Rear Wing Simulation Results</p>
+                        </div>
+                        <div class="feature-text">
+                            <p>Lastly, from the fluid simulation done on the rear wing we can see the improvements in
+                                downforce the current rear wing has over the previous year. A 27% increase in downforce
+                                with only a 5% increase in drag allows for a lift to drag ratio of 2.61 compared to
+                                2.17. In other words, this rear wing with the modified major, MSHD airfoils, and
+                                reworked vortex generators is much more efficient compared to last year's model.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Subsection: Testing -->
+                <div class="subsection">
+                    <h3 class="subsection-title">Testing</h3>
+                    <p class="text-block">Testing allows me to validate previously defined numbers such as from the
+                        Siemens Star CCM+ fluid simulations.</p>
+
+                    <div class="grid-2-col">
+                        <div class="media-card">
+                            <div class="video-container">
+                                <iframe
+                                    src="https://www-ccv.adobe.io/v1/player/ccv/CGPGreQXPde/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+                                    frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            <p class="caption">Scaled Model Rear Wing Wind Tunnel Demonstration</p>
+                        </div>
+                        <div class="media-card">
+                            <img src="https://cdn.myportfolio.com/69f7de98-9afc-4d6a-b671-848c20801647/e67f9992-5ca0-4558-8c93-b90ffed946b9_rw_1920.png?h=5f2469916bba1e73393a87654c65bc75"
+                                alt="Scaled Model Rear Wing in Wind Tunnel" class="feature-img">
+                            <p class="caption">Scaled Model Rear Wing in Wind Tunnel</p>
+                        </div>
+                    </div>
+                    <p class="text-block mt-4">In order to validate our simulation results presented above, I 3D printed
+                        a scaled version of the rear wing to test inside Dr.Liu's wind tunnel. The experiment gave us
+                        .33 lbf (150 grams) of downforce at 20 mph. As I ran the simulation with the scaled rear wing,
+                        we got .36 lbf (163 grams) of downforce​. Which led to a 91.67% accuracy to simulation, which
+                        was almost exact to the numbers ran from last year.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2: SidePods -->
+        <section id="side-pods" class="section dark-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">SidePods</h2>
+                    <p class="section-desc">The side pods house the radiator and exhaust fans, meaning they are
+                        essential for cooling. Additionally, they have to designed as tightly as possible to reduce
+                        unwanted drag effects.</p>
+                </div>
+
+                <!-- Subsection: Design -->
+                <div class="subsection">
+                    <h3 class="subsection-title">Design</h3>
+                    <p class="text-block">Similar to the rear wing, I am the lead designer for the side pods. However
+                        there is no previous designs to go off of since this is the first time the team has had side
+                        pods since our first competition car: TREV 2.</p>
+
+                    <div class="feature-row">
+                        <div class="feature-media">
+                            <img src="https://cdn.myportfolio.com/69f7de98-9afc-4d6a-b671-848c20801647/db596fe6-fec5-45ae-86f5-28f5a1d2091f_rw_1920.png?h=c08a0aae78e77c229b51be97f960a85d"
+                                alt="Isometric View of Side Pods" class="rounded-img">
+                            <p class="caption">Isometric View of Side Pods</p>
+                        </div>
+                        <div class="feature-text">
+                            <p>This is the side pod attached to the latest iteration of body panels. The view serves to
+                                illustrate what the side pod is bounded against, which is the under tray and the body
+                                panels.</p>
+                        </div>
+                    </div>
+
+                    <div class="feature-row reverse">
+                        <div class="feature-media">
+                            <img src="https://cdn.myportfolio.com/69f7de98-9afc-4d6a-b671-848c20801647/de376355-a724-4b19-a1c0-3a46faf8bb4a_rw_1920.png?h=edbf6e00a08955fbcc5cc1aba84c862e"
+                                alt="Isometric View of Side Pod Assembly" class="rounded-img">
+                            <p class="caption">Isometric View of Side Pod Assembly</p>
+                        </div>
+                        <div class="feature-text">
+                            <p>This isometric image shows just the side pods. The side pods feature a covering duct to
+                                channel oncoming air flow from the front of the car through the radiator and the exhaust
+                                fan. Additionally, there is a 2 inch overhang which serves to mitigate flow separation
+                                from tire wake.</p>
+                        </div>
+                    </div>
+
+                    <div class="feature-row">
+                        <div class="feature-media">
+                            <img src="https://cdn.myportfolio.com/69f7de98-9afc-4d6a-b671-848c20801647/1a877bfe-bab1-4549-a42b-21f83833632b_rw_1920.png?h=6c57c1e0f614446f3946a2b9db8428c6"
+                                alt="Isometric View of Side Pod Packaging" class="rounded-img">
+                            <p class="caption">Isometric View of Side Pod Packaging</p>
+                        </div>
+                        <div class="feature-text">
+                            <p>The side pod in this image is transparent to showcase the custom made radiator and
+                                exhaust fan that needs to be properly packaged. The side pod is also shown to follow the
+                                side inlet of the under tray. Additionally the radiator will be set at an angle, which
+                                allows the profile of the side pod to be smaller than usual.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Subsection: Simulations -->
+                <div class="subsection">
+                    <h3 class="subsection-title">Simulations</h3>
+                    <p class="text-block">The simulations ran in Siemens Star CCM+ allows for me to see how the side pod
+                        channels airflow into the radiator . This is crucial since the radiator getting proper airflow
+                        is allows the car to run for an extended period of time.</p>
+
+                    <div class="feature-row">
+                        <div class="feature-media">
+                            <img src="https://cdn.myportfolio.com/69f7de98-9afc-4d6a-b671-848c20801647/e70a88e0-9979-46a1-bb5d-88ec32d31298_rw_1200.png?h=8fa7aa34ad4917037655e7917ccb6dbf"
+                                alt="Side Pod Y Axis Velocity Plot" class="rounded-img">
+                            <p class="caption">Side Pod Y Axis Velocity Plot</p>
+                        </div>
+                        <div class="feature-text">
+                            <p>This image of a slice of the side pod was taken in a y axis velocity plot. The image
+                                shows how much the air slows down before it speeds back up through the exhaust.
+                                Additionally we can see a slow vortex forming on the upper surface which is not ideal
+                                and will be fixed on upcoming iterations. However, much of the flow comes from the tire
+                                wake which is very turbulent, so mitigating slow moving air is a top priority.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Next Car Testing -->
+        <section id="testing" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Next Car Testing</h2>
+                    <p class="section-desc">The purpose of this section is to document the testing done on the previous
+                        car: TREV 3 in order to identify key area of improvement for our next car. This section will
+                        showcase wind tunnel testing and carbon panel testing.</p>
+                </div>
+
+                <!-- Subsection: Wind Tunnel Testing -->
+                <div class="subsection">
+                    <h3 class="subsection-title">Wind Tunnel Testing</h3>
+                    <div class="feature-row">
+                        <div class="feature-media">
+                            <div class="video-container">
+                                <iframe
+                                    src="https://www-ccv.adobe.io/v1/player/ccv/7AqUncXwowc/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+                                    frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            <p class="caption">Ford Wind Tunnel Testing</p>
+                        </div>
+                        <div class="feature-text">
+                            <p>The aerodynamics subteam at Terps Racing EV went to Detroit Michigan to test TREV 3 at
+                                one of Ford's Wind Tunnels. This test was to see how our aerodynamic package reacts to
+                                different velocities. The video shows our test at 96 kph or just under 60 mph. We saw
+                                shaking and mild distortion among our manufactured carbon components, which means we
+                                need to build them more rigidly.</p>
+                        </div>
+                    </div>
+
+                    <div class="feature-row reverse">
+                        <div class="feature-media">
+                            <div class="video-container">
+                                <iframe
+                                    src="https://www-ccv.adobe.io/v1/player/ccv/QpJJ9yE8DvK/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+                                    frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            <p class="caption">Smoke Flow Visualization</p>
+                        </div>
+                        <div class="feature-text">
+                            <p>In this video at Ford's wind tunnel facility we were using smoke flow to visualize the
+                                vortexes coming off our front wing and the front left tire. This is an important area
+                                for side pods since it shows a bunch of stagnant flow around ( which was also seen in
+                                the simulation ).</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Subsection: Carbon Testing -->
+                <div class="subsection">
+                    <h3 class="subsection-title">Carbon Testing</h3>
+                    <div class="feature-row">
+                        <div class="feature-media">
+                            <div class="video-container">
+                                <iframe
+                                    src="https://www-ccv.adobe.io/v1/player/ccv/JYQ-uAzBior/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+                                    frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            <p class="caption">Three Point Bend Test at Naval Academy</p>
+                        </div>
+                        <div class="feature-text">
+                            <p>This was a three point bend test for our body panels on TREV 4. We tested several panels
+                                with varying levels of resin and different thicknesses of coremat at the Naval Academy's
+                                Stress Testing Lab. This was done since our body panels in our previous car were getting
+                                too thin in certain places. This test showed us that the recipe for panel #3 gave us the
+                                best results for strength and weight.</p>
+                        </div>
+                    </div>
+
+                    <div class="feature-row reverse">
+                        <div class="feature-media">
+                            <div class="video-container">
+                                <iframe
+                                    src="https://www-ccv.adobe.io/v1/player/ccv/Tz85JVW6crc/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+                                    frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            <p class="caption">Resin Infusion Testing</p>
+                        </div>
+                        <div class="feature-text">
+                            <p>This was a resin infusion test, which allows the resin to penetrate more deeply and
+                                evenly into more complex molds. This test was done in preparation for our nose cone and
+                                seat for our upcoming car. The same steps for setting a motel sheet, vacuum bag, gummy
+                                tape, and vacuum are all the same however the difference is an infusion tube which
+                                allows resin to be dispersed through the mold. The only issue with this is the set up is
+                                slightly tricky and this test was only semi- successful.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4: Supplemental Videos -->
+        <section class="section dark-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Supplemental Videos</h2>
+                </div>
+                <div class="grid-2-col">
+                    <div class="media-card">
+                        <div class="video-container">
+                            <iframe
+                                src="https://www-ccv.adobe.io/v1/player/ccv/92Jczyerbcg/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+                                frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="text-block">
+                        <p>TREV 3 is Terps Racing Electric Vehicle's first working race car. This video showcases our
+                            mock acceleration run through some leaves.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <p>&copy; 2026 Abisharan Nedun.</p>
+                <div class="footer-note">Content reproduced for portfolio demonstration purposes.</div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
