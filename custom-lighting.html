@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Work - Abisharan Nedun</title>
-    <meta name="description" content="Portfolio of Abisharan Nedun - Engineering Projects">
+    <title>Custom Lighting Controllers</title>
+    <meta name="description" content="Abisharan Nedun - Custom Lighting Controllers Project">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,7 +25,7 @@
             <div class="container">
                 <a href="index.html" class="logo">AN<span class="highlight">.</span></a>
                 <ul class="nav-links">
-                    <li><a href="index.html" class="active">Work</a></li>
+                    <li><a href="index.html">Work</a></li>
                     <li><a href="https://www.linkedin.com/in/anedun/" target="_blank">Linked In</a></li>
                     <li><button id="theme-toggle" class="theme-btn" aria-label="Toggle Dark Mode">
                             <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
@@ -51,45 +51,44 @@
             </div>
         </nav>
 
-        <!-- Welcome Section -->
-        <header class="welcome-section">
-            <div class="container">
-                <h1 class="welcome-title">Welcome Page</h1>
-                <p class="welcome-text">I am currently a senior aerospace engineering student at the University of
-                    Maryland College Park. This portfolio shows various projects, tests, and models from clubs and
-                    personal hobbies. Each sub section is filled with information and I encourage you to ask any
-                    questions !</p>
+        <!-- Hero Section -->
+        <header class="hero">
+            <div class="container hero-content">
+                <span class="eyebrow">Personal Project</span>
+                <h1 class="hero-title">Custom Lighting Controllers</h1>
+                <p class="hero-subtitle">As part of a personal hobby, myself and my colleague Alec designed a
+                    customizable lighting controller. The goal for this project was to set several lighting "moods" into
+                    our rooms that were controlled via home assistant.</p>
             </div>
         </header>
 
-        <!-- Project Grid -->
-        <section class="project-grid-section">
-            <div class="project-grid">
-                <!-- Terps Racing Card -->
-                <a href="terps-racing.html" class="project-cover">
-                    <div class="cover-image-wrap">
-                        <img src="images/trev-card.png" alt="Terps Racing Electric Vehicle (TREV)" class="cover-img">
-                    </div>
-                    <div class="details-wrap">
-                        <div class="details">
-                            <div class="project-title">Terps Racing Electric Vehicle (TREV)</div>
-                            <div class="project-year">2025</div>
-                        </div>
-                    </div>
-                </a>
+        <!-- Section 1: Overview -->
+        <section class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Overview</h2>
+                    <p class="section-desc">Integrating smart home technology with custom hardware.</p>
+                </div>
 
-                <!-- Custom Lighting Controllers Card -->
-                <a href="custom-lighting.html" class="project-cover">
-                    <div class="cover-image-wrap">
-                        <img src="images/custom-lighting.jpg" alt="Custom Lighting Controllers" class="cover-img">
+                <div class="feature-row">
+                    <div class="feature-media">
+                        <img src="images/custom-lighting.jpg" alt="Custom Lighting Controller Interface"
+                            class="rounded-img">
+                        <p class="caption">Custom Lighting Setup</p>
                     </div>
-                    <div class="details-wrap">
-                        <div class="details">
-                            <div class="project-title">Custom Lighting Controllers</div>
-                            <div class="project-year">2025</div>
-                        </div>
+                    <div class="feature-text">
+                        <p>This project involved designing custom PCB layouts and writing firmware to interface with
+                            Home
+                            Assistant. We wanted granular control over LED strips to create immersive environments
+                            tailored
+                            to different activities such as studying, gaming, or relaxing.</p>
+                        <p>The system utilizes ESP32 microcontrollers for Wi-Fi connectivity, allowing for real-time
+                            state
+                            updates and low-latency control. We also integrated support for WLED, which provided a
+                            robust
+                            base for addressable LED animations.</p>
                     </div>
-                </a>
+                </div>
             </div>
         </section>
 
