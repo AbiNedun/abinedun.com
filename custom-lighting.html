@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Custom Lighting Controllers</title>
-    <meta name="description" content="Abisharan Nedun - Custom Lighting Controllers Project">
+    <title>Custom Lighting Controllers - Abisharan Nedun</title>
+    <meta name="description"
+        content="Custom Lighting Controllers project by Abisharan Nedun and Alec using home assistant.">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -51,46 +52,84 @@
             </div>
         </nav>
 
-        <!-- Hero Section -->
-        <header class="hero">
-            <div class="container hero-content">
-                <span class="eyebrow">Personal Project</span>
-                <h1 class="hero-title">Custom Lighting Controllers</h1>
-                <p class="hero-subtitle">As part of a personal hobby, myself and my colleague Alec designed a
-                    customizable lighting controller. The goal for this project was to set several lighting "moods" into
-                    our rooms that were controlled via home assistant.</p>
+        <!-- Project Content -->
+        <div class="project-content">
+            <!-- Hero / Title -->
+            <div class="hero">
+                <div class="container hero-content">
+                    <h1 class="hero-title">Custom Lighting Controllers</h1>
+                    <p class="hero-subtitle">As part of a personal hobby, myself and my colleague Alec designed a
+                        customizable lighting controller. The goal for this project was to set several lighting "moods"
+                        into our rooms that were controlled via home assistant.</p>
+                </div>
             </div>
-        </header>
 
-        <!-- Section 1: Overview -->
-        <section class="section">
             <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Overview</h2>
-                    <p class="section-desc">Integrating smart home technology with custom hardware.</p>
+                <!-- Lighting Demonstration -->
+                <h2 class="project-section-title">Lighting Demonstration:</h2>
+
+                <div class="media-grid-2">
+                    <div class="video-wrapper">
+                        <iframe
+                            src="https://www-ccv.adobe.io/v1/player/ccv/4XkKacIZ-g6/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="video-wrapper">
+                        <iframe
+                            src="https://www-ccv.adobe.io/v1/player/ccv/V-p-eqAquoj/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+                            allowfullscreen></iframe>
+                    </div>
                 </div>
 
-                <div class="feature-row">
-                    <div class="feature-media">
-                        <img src="images/custom-lighting.jpg" alt="Custom Lighting Controller Interface"
-                            class="rounded-img">
-                        <p class="caption">Custom Lighting Setup</p>
+                <p class="project-text">Both videos show the lighting controller running through the configured scenes
+                    running on a local home assistant server.</p>
+
+                <!-- Controller Internals -->
+                <h2 class="project-section-title">Controller 3d Print and Internals:</h2>
+
+                <!-- Grid of 4 images -->
+                <div class="media-grid-4">
+                    <div class="grid-item">
+                        <img src="images/custom-lighting/img_1.jpg" alt="Controller Front">
                     </div>
-                    <div class="feature-text">
-                        <p>This project involved designing custom PCB layouts and writing firmware to interface with
-                            Home
-                            Assistant. We wanted granular control over LED strips to create immersive environments
-                            tailored
-                            to different activities such as studying, gaming, or relaxing.</p>
-                        <p>The system utilizes ESP32 microcontrollers for Wi-Fi connectivity, allowing for real-time
-                            state
-                            updates and low-latency control. We also integrated support for WLED, which provided a
-                            robust
-                            base for addressable LED animations.</p>
+                    <div class="grid-item">
+                        <img src="images/custom-lighting/img_2.jpg" alt="Controller Back">
+                    </div>
+                    <div class="grid-item">
+                        <img src="images/custom-lighting/img_3.png" alt="PCB Front">
+                    </div>
+                    <div class="grid-item">
+                        <img src="images/custom-lighting/img_4.png" alt="PCB Back">
                     </div>
                 </div>
+
+                <p class="project-text">These are supplementary images of the controller. The left side showcases the
+                    front of the PCB along with the wifi controller board, 8 addressable LEDs, and the four low profile
+                    linear key switches. The right side shows the back of the PCB and how it connects to the housing of
+                    the controller like a clamshell.</p>
+
+                <!-- CAD Design -->
+                <h2 class="project-section-title">Solidworks CAD Design:</h2>
+
+                <div class="full-width-media">
+                    <img src="images/custom-lighting/img_5.jpg" alt="CAD Assembly View">
+                </div>
+
+                <div class="media-grid-2">
+                    <div class="grid-item">
+                        <img src="images/custom-lighting/img_6.png" alt="CAD Internal View">
+                    </div>
+                    <div class="grid-item">
+                        <img src="images/custom-lighting/img_7.png" alt="CAD Cross Section">
+                    </div>
+                </div>
+
+                <p class="project-text">Lastly, this is an isometric view, a bottom left view and a straight up view of
+                    the lighting controller. Each and every hole was properly toleranced to ensure the screws, usb - c
+                    port, and key switches all fit.</p>
+
             </div>
-        </section>
+        </div>
 
         <!-- Footer -->
         <footer class="footer">
